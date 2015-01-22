@@ -1,3 +1,4 @@
+# 1r Ejemplo
 var net = require('net');
 
 var agent = net.connect({port:8000}, function() {
@@ -16,4 +17,6 @@ agent.on('data', function(data) {
 			
 agent.on('end', function() {
 	console.log('Cliente desconectado');
+	console.log('.');
 });				
+
