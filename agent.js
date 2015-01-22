@@ -1,7 +1,10 @@
-# 1r Ejemplo
-# Realizando un cambio para la rama 'independiente'
-# Realizando un cambio mas para el merge
-# Autor: Chegarra
+
+/* 1r Ejemplo
+ * 
+ *  Autor: Chegarra
+ * 
+ */
+ 
 var net = require('net');
 
 var agent = net.connect({port:8000}, function() {
@@ -20,6 +23,5 @@ agent.on('data', function(data) {
 			
 agent.on('end', function() {
 	console.log('Cliente desconectado');
-	console.log('.');
 });				
 

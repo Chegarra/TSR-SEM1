@@ -1,3 +1,11 @@
+/*
+ * 1r Ejemplo
+ * 
+ * Autor: Chegarra
+ * 
+ */
+
+
 var net = require('net');
 
 var server = net.createServer(
